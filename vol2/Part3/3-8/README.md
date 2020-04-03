@@ -41,7 +41,7 @@
 - AdoptOpenJDK: https://adoptopenjdk.net/
 - サンプルアプリケーションのアーカイブの取得と展開用コマンド
   ```console
-  curl -OL https://soracom-files.s3-ap-northeast-1.amazonaws.com/book2020/inventory-agent.tar
+  curl -L "https://github.com/soracom/soracom-book/blob/master/vol2/Part3/3-8/inventory-agent.tar?raw=true" -o inventory-agent.tar
   tar xvf inventory-agent.tar
   cd inventory-agent
   ls
